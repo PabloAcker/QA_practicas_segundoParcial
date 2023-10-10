@@ -1,4 +1,4 @@
-package JsonCompare_Tarea_Acker_Test;
+package jsonCompareTest;
 
 import JsonCompare_Tarea_Acker.JsonCompare;
 import org.junit.jupiter.api.Assertions;
@@ -28,7 +28,7 @@ public class JsonCompareTest {
         String actual = "{\"Content\": {\"name\": \"Pablo\", \"Date\": 10}}";
 
         boolean result = JsonCompare.compareJson(expected, actual);
-        Assertions.assertFalse(result);
+        Assertions.assertTrue(result);
     }
 
     @Test

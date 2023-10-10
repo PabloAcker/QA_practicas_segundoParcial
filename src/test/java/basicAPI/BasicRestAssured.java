@@ -11,7 +11,9 @@ public class BasicRestAssured {
           given() --> configuration > header / params / body / Auth
           when() --> method (put/post/get/delete) > url
           then() --> response -> boyd /code/ msg /headers
-         */
+
+     */
+
     @Test
     public void createProjectByApi(){
         given()
